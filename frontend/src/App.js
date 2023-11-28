@@ -1,10 +1,11 @@
 // import logo from './logo.svg';
 // import './App.css';
-
+import Forms from './pages/Forms'
+import UserDash from './pages/UserDash';
 function App() {
   return (
     <div className="text-red-300">
-      this is app
+      <UserDash></UserDash>
     </div>
   );
 }
